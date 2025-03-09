@@ -1,0 +1,13 @@
+{
+	"extends": "@ignite-ui/ts-config/react.json",
+	"compilerOptions": {
+		"paths": {
+			"@/*": [
+				"./src/*"
+			],
+		}
+	},
+	"include": [
+		"src"
+	]
+}
