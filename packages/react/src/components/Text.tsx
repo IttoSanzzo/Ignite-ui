@@ -1,6 +1,5 @@
 import { ComponentProps } from "@stitches/react";
 import { styled } from "@/styles";
-import { ElementType } from "react";
 
 export const Text = styled("p", {
 	fontFamily: "$defalt",

@@ -1,6 +1,5 @@
 import { StoryObj, Meta } from "@storybook/react";
-import { Text, TextProps } from "@ignite-ui/react";
-import { size } from "polished";
+import { Text, TextProps } from "@itto-ignite-ui/react";
 
 export default {
 	title: "Typography/Text",

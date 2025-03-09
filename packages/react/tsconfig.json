@@ -1,5 +1,5 @@
 {
-	"extends": "@ignite-ui/ts-config/react.json",
+	"extends": "@itto-ignite-ui/ts-config/react.json",
 	"compilerOptions": {
 		"paths": {
 			"@/*": [

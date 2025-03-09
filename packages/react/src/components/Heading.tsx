@@ -1,6 +1,5 @@
 import { ComponentProps } from "@stitches/react";
 import { styled } from "@/styles";
-import { ElementType } from "react";
 
 export const Heading = styled("h2", {
 	fontFamily: "$defalt",

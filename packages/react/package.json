@@ -1,5 +1,5 @@
 {
-	"name": "@ignite-ui/react",
+	"name": "@itto-ignite-ui/react",
 	"version": "1.0.0",
 	"description": "",
 	"main": "./dist/index.js",
@@ -14,8 +14,8 @@
 	"license": "MIT",
 	"type": "commonjs",
 	"devDependencies": {
-		"@ignite-ui/tokens": "*",
-		"@ignite-ui/ts-config": "*",
+		"@itto-ignite-ui/tokens": "*",
+		"@itto-ignite-ui/ts-config": "*",
 		"@types/react": "^19.0.10",
 		"@types/react-dom": "^19.0.4",
 		"react": "^19.0.0",
