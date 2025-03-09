@@ -13,14 +13,14 @@ const config: StorybookConfig = {
 	stories: ["../src/pages/**/*.mdx", "../src/stories/**/*.stories.tsx"],
 
 	addons: [
-        getAbsolutePath("@storybook/addon-essentials"),
-        getAbsolutePath("@storybook/addon-onboarding"),
-        getAbsolutePath("@chromatic-com/storybook"),
-        getAbsolutePath("@storybook/experimental-addon-test"),
-        getAbsolutePath("@storybook/addon-mdx-gfm"),
-        getAbsolutePath("@storybook/addon-a11y"),
-        getAbsolutePath("@storybook/addon-mdx-gfm")
-    ],
+		getAbsolutePath("@storybook/addon-essentials"),
+		getAbsolutePath("@storybook/addon-onboarding"),
+		getAbsolutePath("@chromatic-com/storybook"),
+		getAbsolutePath("@storybook/experimental-addon-test"),
+		getAbsolutePath("@storybook/addon-mdx-gfm"),
+		getAbsolutePath("@storybook/addon-a11y"),
+		getAbsolutePath("@storybook/addon-mdx-gfm"),
+	],
 
 	framework: {
 		name: getAbsolutePath("@storybook/react-vite"),
@@ -37,6 +37,13 @@ const config: StorybookConfig = {
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 		<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet" />
 	`,
+
+	viteFinal: (config, { configType }) => {
+		if (configType === "PRODUCTION") {
+			config.base = "/Ignite-ui/";
+		}
+		return config;
+	},
 
 	docs: {},
 };
