@@ -1,0 +1,1 @@
+const a={parameters:{controls:{matchers:{color:/(background|color)$/,date:/Date$/i}},backgrounds:{default:"gray",values:[{name:"gray",value:"#292c2e"}]},a11y:{test:"todo"}},tags:["autodocs"]};export{a as default};
